@@ -1,0 +1,29 @@
+*{
+  margin: 0;
+  padding: 0; outline: 0; box-sizing: border-box;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+.container{
+  width: 80%; margin: auto;
+}
+button{
+  background-color: cadetblue;
+  color: azure; padding: 50px 80px;
+  font-size: 50px; border: none; cursor: pointer;
+}
+
+.sidebar{
+  width: 250px; height: 200px;
+   padding: 40px;
+   transform: scaleX(0);
+   transform-origin: left;
+   transition: 1s;
+}
+.active{
+  transform: scaleX(1);
+}
